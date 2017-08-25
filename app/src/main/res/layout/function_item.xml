@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@color/colorGray">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/class_browse_iv"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/ic_layers_white_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/class_browse_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/class_look"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="55dp"
+                android:layout_width="315dp"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/class_major_iv"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/ic_book_gray_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/class_major_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/class_and_major"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_marginLeft="-65dp"
+                android:layout_marginTop="55dp"
+                android:layout_width="315dp"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/hot_iv"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/ic_trending_up_gray_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/hot_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/hot_better"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="55dp"
+                android:layout_width="315dp"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/my_subscribe_iv"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/ic_adjust_gray_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/my_subscribe_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/my_subscrib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="55dp"
+                android:layout_width="315dp"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/my_live_iv"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/ic_show_chart_gray_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/my_live_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="23dp"
+                android:text="@string/my_live"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <View
+                android:layout_marginLeft="-50dp"
+                android:layout_marginTop="55dp"
+                android:layout_width="315dp"
+                android:layout_height="1dp"
+                android:background="@color/colorGray"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

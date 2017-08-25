@@ -1,0 +1,130 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/ic_photo_size_select_actual_gray_24dp"
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:textColor="@color/colorDark"
+        android:padding="10dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:text="@string/title_text"
+        android:layout_width="80dp"/>
+
+    <EditText
+        android:id="@+id/input_title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:hint="@string/input_title"
+        android:textColor="@color/colorDark"
+        android:textSize="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/colorDark"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:text="@string/name_text"
+        android:layout_width="80dp"
+        android:paddingTop="5dp"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:hint="@string/input_name"
+        android:textColor="@color/colorDark"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/colorDark"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:text="@string/intro_text"
+        android:layout_width="80dp"
+        android:paddingTop="5dp"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/input_intro"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:hint="@string/input_intro"
+        android:textColor="@color/colorGray"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textColor="@color/colorDark"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:text="@string/desc_text"
+        android:layout_width="60dp"
+        android:paddingTop="5dp"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/input_desc"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:hint="@string/input_desc"
+        android:textColor="@color/colorDarkLight"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textColor="@color/colorDark"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:text="@string/outline_text"
+        android:layout_width="60dp"
+        android:paddingTop="5dp"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/input_outline"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:hint="@string/input_outline"
+        android:textColor="@color/colorDarkLight"
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/commit_button"
+        android:textSize="16dp"
+        android:text="@string/live_commit"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlue"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

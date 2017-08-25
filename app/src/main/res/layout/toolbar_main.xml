@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:fitsSystemWindows="true"
+              android:layout_height="?attr/actionBarSize"
+              android:background="@drawable/ic_self_gradient_background"
+              android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/toolbar_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/toolbar_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/create_live"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"
+            android:paddingEnd="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:paddingStart="15dp"/>
+
+</LinearLayout>

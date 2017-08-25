@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ChatTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/lcim_common_blue</item>
+        <item name="colorPrimaryDark">@color/lcim_common_blue</item>
+        <item name="colorAccent">@color/lcim_common_blue</item>
+        <item name="actionBarTheme">@style/LCIMActionBarTheme</item>
+    </style>
+
+    <style name="detail_left_layout">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/group_detail_btn</item>
+    </style>
+
+    <style name="detail_left_style">
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:color">@color/colorDarkGray</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+</resources>

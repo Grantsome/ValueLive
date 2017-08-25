@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        tools:src="@drawable/ic_login_background"
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        tools:text="@string/live_title"
+        android:textSize="18dp"
+        android:textColor="@color/colorDark"
+        android:id="@+id/live_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/live_join_desc"
+        android:textSize="13dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        tools:text="@string/live_join_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorGray"/>
+
+    <Button
+        android:id="@+id/join_button"
+        android:textSize="16dp"
+        android:text="@string/live_join"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBlue"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/live_speaker_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            tools:src="@drawable/ic_account_circle_gray_24dp"/>
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/colorDark"
+            android:layout_marginTop="10dp"
+            tools:text="@string/live_speaker_name"
+            android:layout_toRightOf="@id/live_speaker_avatar"
+            android:id="@+id/live_speaker_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/live_speaker_desc"
+            android:textSize="13dp"
+            android:textColor="@color/colorDarkLight"
+            android:layout_marginLeft="5dp"
+            tools:text="@string/live_speaker_desc"
+            android:layout_below="@id/live_speaker_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorGray"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="17dp"
+        android:text="@string/live_desc_real"
+        android:textColor="@color/colorDarkGray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="13dp"
+        android:id="@+id/live_desc"
+        tools:text="@string/live_desc"
+        android:textColor="@color/colorDarkLight"
+        android:layout_marginTop="10dp"
+        android:textSize="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorGray"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="13dp"
+        android:textColor="@color/colorDarkGray"
+        android:text="@string/live_outline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorDarkLight"
+        android:layout_marginTop="5dp"
+        android:id="@+id/live_outline_desc"
+        tools:text="@string/live_outline_desc"
+        android:textSize="13dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
